@@ -1,0 +1,46 @@
+# Node.js
+node_modules/
+.pnpm/
+.pnp/
+dist/
+build/
+lib/
+
+# TypeScript
+*.tsbuildinfo
+*.d.ts
+*.js.map
+*.cjs.map
+*.mjs.map
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# Output directory for generated files
+/dist/
+
+# Ignore any folder with user-specific configs or caches
+/.vscode/
