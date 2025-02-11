@@ -8,7 +8,7 @@ if (!process.env.PINECONE_API_KEY) {
 const pc = new Pinecone({ apiKey: process.env.PINECONE_API_KEY });
 const model = 'multilingual-e5-large';
 
-class SemanticCache {
+export class SemanticCache {
     private cache: Map<string, any>;
 
     constructor() {
@@ -74,5 +74,3 @@ class SemanticCache {
         return filteredResults[0].metadata;
     }
 }
-
-export default SemanticCache;
